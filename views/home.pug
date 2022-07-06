@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+    script(src='/ststic/index.js')
+block style 
+    style
+        include ../static/style.css
+block content
+block container
+    .back
+        nav.navbar
+                div.inner-nav
+                    div.logo Foodatorium
+                    div.right 
+                        ul
+                             li #[a(href="/") Home]
+                             li #[a(href="/m") Menu]
+                             li #[a(href="/a") About Us]
+                             li #[a(href="/c") Contact Us]
+    div.container
+        |   hssssssssssssssssshuuuuuuudddddhddddddddddddddddddddd

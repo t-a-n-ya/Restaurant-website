@@ -1,0 +1,16 @@
+extends base.pug
+
+block scripts
+    script(src='/ststic/index.js')
+block style 
+    style
+        include ../static/style.css
+block container 
+    .contact
+        form.myForm(action='/c', method='post')
+            input.myInput(type="text" name="name" placeholder="Enter your name..")
+            input.myInput(type="number" name="phone" placeholder="Enter your phone number..")
+            input.myInput(type="password" name="password" placeholder="Enter your password..")
+            input.myInput(type="text" name="email" placeholder="Enter your email no..")
+            button.btn(value="submit")
+                |   Submit   

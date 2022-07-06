@@ -1,0 +1,25 @@
+doctype html 
+html 
+    head 
+        title Tanya
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    block scripts 
+    block style
+        style
+            include ../static/style.css 
+    body 
+        block content
+            nav.navbar1
+                div.inner-nav
+                    div.logo Foodatorium
+                    div.right 
+                        ul
+                            li #[a(href="/") Home]
+                            li #[a(href="/m") Menu]
+                            li #[a(href="/a") About Us]
+                            li #[a(href="/c") Contact Us]
+        block container
+        block footer
+            footer.foot
+                |  Copyright@2022 
+        

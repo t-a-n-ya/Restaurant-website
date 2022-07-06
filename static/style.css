@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+}
+.navbar1{
+    background-color: rgba(0, 0, 0);
+    height: 75px;
+    display: flex;
+}
+.back{
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.604),rgba(0, 0, 0, 0.604)),url('static/bg2.jpg') no-repeat center;
+        background-size: cover;
+     }
+.navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 75px;
+    display: flex;
+}
+.inner-nav{
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    display: inline-block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+.logo:hover{
+    color: black;
+}
+.right{
+    float: right;
+    display: flex;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 15px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    padding: 15px;
+    list-style: none;
+    color:white;
+}
+li a:hover{
+    color: black;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.contact{
+    background: linear-gradient(1deg, #000000b5, transparent);
+    background-color: #6e849b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 81vh;
+}
+.myForm{
+    background: linear-gradient(179deg, #90787857, transparent);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+}
+.myInput{
+    border-radius: 13px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn{
+    width: 18%;
+    margin: auto;
+    padding: 9px;
+    border-radius: 7px;
+    border-style: solid;
+    color: cornsilk;
+    background-color: black
+}
+.cardbox{
+    height: 100vh;
+}
+.cards{
+    display: flex;
+    border: 2px solid black;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 40vh;
+    width: 30%;
+    margin: 38px;
+}
